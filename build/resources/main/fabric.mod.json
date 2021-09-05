@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "highcrest",
+  "version": "1.0-SNAPSHOT",
+  "name": "Highcrest",
+  "description": "A Minecraft mod that adds medieval-fantasy classes to the Origins mod.",
+  "authors": [
+    "Tetemaku"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/highcrest/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.tetemaku.highcrest.highcrest.client.HighcrestClient"
+    ],
+    "main": [
+      "com.tetemaku.highcrest.highcrest.Highcrest"
+    ]
+  },
+  "mixins": [
+    "highcrest.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.1",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}

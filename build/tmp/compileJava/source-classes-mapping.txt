@@ -1,0 +1,6 @@
+com/tetemaku/highcrest/highcrest/client/HighcrestClient.java
+ com.tetemaku.highcrest.highcrest.client.HighcrestClient
+com/tetemaku/highcrest/highcrest/registry/ModItems.java
+ com.tetemaku.highcrest.highcrest.registry.ModItems
+com/tetemaku/highcrest/highcrest/Highcrest.java
+ com.tetemaku.highcrest.highcrest.Highcrest
