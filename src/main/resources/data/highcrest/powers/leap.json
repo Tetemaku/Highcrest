@@ -1,0 +1,14 @@
+{
+  "type": "origins:modify_jump",
+  "modifier": {
+    "operation": "addition",
+    "value": 0.2,
+    "name": "Increased jump while sprinting"
+  },
+  "tick_rate": 5,
+  "condition": {
+    "type": "origins:sprinting"
+  },
+  "name": "Leap",
+  "description": "While sprinting, you jump higher than average."
+}

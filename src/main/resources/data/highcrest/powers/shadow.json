@@ -1,0 +1,15 @@
+{
+  "type": "origins:invisibility",
+  "render_armor": false,
+  "condition": {
+    "type": "origins:in_block",
+    "block_condition": {
+      "type": "origins:light_level",
+      "comparison": ">",
+      "compare_to": 9,
+      "inverted": true
+    }
+  },
+  "name": "Shadow form",
+  "description": "You are able to hide in the shadows, you become unnoticeable when standing in dark places."
+}

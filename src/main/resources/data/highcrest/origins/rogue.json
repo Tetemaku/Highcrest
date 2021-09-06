@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "highcrest:dagger_mastery",
+    "highcrest:leap",
+    "highcrest:shadow",
+    "highcrest:quick_landing",
+    "highcrest:lightweight"
+  ],
+  "icon": "highcrest:dagger",
+  "order": 1,
+  "impact": 2,
+  "name": "Rogue",
+  "description": "Raised in the hidden parts of the town, this agile thief is a master of stealth."
+}

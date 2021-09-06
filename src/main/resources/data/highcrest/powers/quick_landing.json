@@ -1,0 +1,12 @@
+{
+  "type": "origins:invulnerability",
+  "damage_condition": {
+    "type": "origins:name",
+    "name": "fall"
+  },
+  "condition": {
+    "type": "origins:sneaking"
+  },
+  "name": "Quick landing",
+  "description": "Thanks to your technique, you are able to negate fall damage when falling by sneaking"
+}
