@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "highcrest:axe_mastery",
+    "highcrest:carnivore",
+    "highcrest:no_shield",
+    "highcrest:raw_power",
+    "highcrest:charge"
+  ],
+  "icon": "highcrest:battle_axe",
+  "order": 1,
+  "impact": 2,
+  "name": "Berserker",
+  "description": "Natural-born warrior, the Berserker has an offensive fighting style."
+}
