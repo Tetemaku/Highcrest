@@ -1,0 +1,29 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {  "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:speed",
+          "duration": 200,
+          "amplifier": 1,
+          "show_particles": false,
+          "show_icon": false
+        }
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "particle cloud ~ ~ ~ 0.3 0.3 0.3 0.01 16 normal @a"
+      }
+    ]
+  },
+  "cooldown": 600,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "highcrest:textures/gui/resource_bar.png",
+    "bar_index": 0
+  },
+  "name": "Charge",
+  "description": "You use all your energy to run faster for 20 seconds."
+}
